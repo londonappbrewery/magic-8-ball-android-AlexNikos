@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_launcher_background"
+    android:background="@color/colorPrimaryDark"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
@@ -32,8 +32,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/relativeLayout">
+        android:layout_below="@id/relativeLayout"
+        android:layout_centerHorizontal="true">
 
 
         <Button
@@ -42,8 +42,8 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerInParent="true"
-            android:text="@string/rollButton"
-            android:layout_centerVertical="true"/>
+            android:layout_centerVertical="true"
+            android:text="@string/rollButton" />
     </RelativeLayout>
 
 </RelativeLayout>
